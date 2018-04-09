@@ -1,0 +1,104 @@
+body {
+  background-color: #66abff;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  border-radius: 5px;
+  width: 350px;
+  .robotsContainer{
+    display: flex;
+    @media only screen and (max-width: 770px) {
+      width: 170px;
+      display: none;
+      flex-direction: column;
+    }
+  }
+  .mobileIcons{
+    display: none;
+  }
+  .mobilePoints{
+    display: none;
+  }
+  .mobileData{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+  }
+  .robot {
+    color: #66abff;
+    background-color: white;
+    padding: 5px;
+    margin-right: 2px;
+    border-radius: 5px;
+  }
+  .activeRobot {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    .robotData {
+      padding-left: 13px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .robotName {
+        color: #66abff;
+        font-weight: bold;
+        outline: none;
+        border: none;
+      }
+      .points {
+        color: grey;
+      }
+    }
+    .robotIcon{
+      padding-left: 10px;
+    }
+  }
+}
+
+.mobileContainer{
+  display: none;
+  @media only screen and (max-width: 770px) {
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    width: 200px;
+  }
+  .robotContainerMobile{
+    display: flex;
+    border-top: 1px solid grey;
+  }
+  .robotContainerMobile:nth-child(1){
+    display: flex;
+    border-top: none;
+  }
+  .robotIconMobile{
+    padding: 5px;
+  }
+  .robotNameMobile input{
+    color: #66abff;
+  }
+  .robotDataMobile{
+    padding-left: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.activeClass{
+  @media only screen and (max-width: 770px) {
+    display: none;
+  }
+}
+
+.changeRobotName{
+  border-color: transparent;
+  width: 100%;
+  outline: none;
+}
