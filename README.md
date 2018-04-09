@@ -18,5 +18,7 @@ this would distract from more important code and functionality.
 The code works and functionality is all there. But clearly to get it in to production would require unit testing and also
 it could be refactored into smaller components and the methods could be refactored into 1 method. 
 There is some other unecessary duplication, but again this would be quick and easy to refactor.
+Also finally there is some issues with tabs expanding when the text is a certain length but again this would be something
+that I would agree on with UX and the product owner and ensure that there desires were met.
 
 
