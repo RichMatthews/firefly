@@ -21,4 +21,4 @@ There is some other unecessary duplication, but again this would be quick and ea
 Also finally there is some issues with tabs expanding when the text is a certain length but again this would be something
 that I would agree on with UX and the product owner and ensure that there desires were met.
 
-
+Finally to see both modes (i.e. in mobile view) just adjust the browser to about 770px in width or lower
